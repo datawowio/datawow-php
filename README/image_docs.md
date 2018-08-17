@@ -1,5 +1,5 @@
 # Images class
-We've going to explant about parameter for creation and example of use 
+We're going to explant about parameter for creation and example of use 
 
 # Table of Content
 - [Choice class](#choice-class)
@@ -73,7 +73,7 @@ ImagePhotoTag::create($token, $params);
 
 
 ## Query list of data by `gets()`
-For `$params` we've going to explant parameter that `gets()`  has been defined
+For `$params` We're going to explant parameter that `gets()`  has been defined
 
 ```php
 YourClass::gets(array('page' => 1, 'per_page' => 20))
