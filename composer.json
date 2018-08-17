@@ -1,0 +1,25 @@
+{
+  "name": "datawow-agent",
+  "description": " HTTP RESTFul for calling DataWow APIs",
+  "keywords": ["kiyo", "datawow"],
+  "license": "MIT",
+  "homepage": "https://github.com/datawowio/datawow-php",
+  "authors": [
+    {
+      "name": "datawow.io",
+      "email": "info@datawow.io"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.2.*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/handle/"
+    ]
+  }
+}
