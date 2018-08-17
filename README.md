@@ -34,7 +34,7 @@ require_once dirname(__FILE__).'/vendor/autoload.php';
 
 
 # APIs explanation 
-There are 4 models for our API and each of its there are 3 operations to use such as _Create_, _list data_ and _find by id_. We've going to show you what APIs we have .
+There are 4 models for calling our APIs and each of its there are 3 operations to use such as _create_, _list data_ and _find by id_. We've going to show you what APIs we have .
 
 #### Image model. We have 4 APIs
 
@@ -86,8 +86,7 @@ For find data by ID use `find_id()`
 **/
 ImageChoice::find_id($token, $id);
 ``` 
-Every function that being used must have `$token` which is a project token and  `$params` is a parameter that required for each model. For `$params` we've going to explanation in a usage section o or click [link](www.google.con) jump to the usage section
-
+Every function that being used must have `$token` which is a project token and  `$params` is a parameter that required for each model. For `$params` we've going to explanation in a usage section 
 
 
 # Demo and Usage
