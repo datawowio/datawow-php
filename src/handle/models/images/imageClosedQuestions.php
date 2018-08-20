@@ -12,7 +12,7 @@ class ImageClosedQuestion extends Connector
 
     public static function gets($token, $params = array())
     {
-        $params = array('page' => 0, 'paerPage' => 20);
+        $params = array('page' => 0, 'per_page' => 20);
 
         return parent::retrieve_list(get_class(), base_url('images').get_path('images', 'closed_questions'), $token, json_encode($params));
     }
