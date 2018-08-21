@@ -1,6 +1,6 @@
-k sequencing php
+Datawow-php
 =========================
-Datawow-agent  HTTP RESTFul for calling DataWow APIs
+Datawow-php  HTTP RESTFul for calling DataWow APIs
 ###### support or question support@datawow.io
 
 # Requirements
@@ -15,7 +15,7 @@ You can install library via [Compose](https://getcomposer.org/). Please check yo
 Copy below code to your composer.json 
 
 ```json
-"datawow/ksequencing-php": "dev-master"
+"datawow/datawow-php": "dev-master"
 ```
 
 Run composer install

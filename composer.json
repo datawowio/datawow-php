@@ -1,5 +1,5 @@
 {
-  "name": "datawow-agent",
+  "name": "datawow-php",
   "description": " HTTP RESTFul for calling DataWow APIs",
   "keywords": ["kiyo", "datawow"],
   "license": "MIT",
