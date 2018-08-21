@@ -1,4 +1,4 @@
-# Text class
+# AI class
 We're going to explant about parameter for creation and example of use 
 
 # Table of Content
