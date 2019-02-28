@@ -12,4 +12,4 @@ require_once dirname(__FILE__)."/handle/models/texts/conversations.php";
 require_once dirname(__FILE__)."/handle/models/texts/text_closed_questions.php";
 require_once dirname(__FILE__)."/handle/models/texts/categories.php";
 
-require_once dirname(__FILE__)."/handle/models/images/verifications.php";
+require_once dirname(__FILE__)."/handle/models/documents/verifications.php";

@@ -20,7 +20,7 @@ function get_path($type, $model)
         "find"       => "projects/images/"
       ),
     "docs" => array(
-      "verification" => "images/document_verifications"
+      "verification" => "images/document_verifications/"
       )
     );
 
