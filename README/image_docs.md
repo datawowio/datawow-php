@@ -91,9 +91,10 @@ Once, you want to controller number of result and implement pagination on you sy
 ## Find data with ID by `find_id()`
 
 ```php
-YourClass::gets(array('id' => 1))
+YourClass::find_id(array('id' => 1))
 ```
 #### params
 | Field        | Type           | Required  | Description |
 | ------------- |:-------------:| :----:| :-----|
 | id	     | string  |   **Yes** | Image's ID or custom ID which is you were assigned|
+
