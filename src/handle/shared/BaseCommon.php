@@ -8,7 +8,8 @@ function get_path($type, $model)
       "messages"=> "images/messages",
       "choices"=> "images/choices",
       "photo_tag"=> "images/photo_tags",
-      "find"=> "projects/images/"),
+      "find"=> "projects/images/",
+      "consensus" => "jobs/ai/consensuses/"),
     "videos" => array(
       "closed_questions" => "videos/closed_questions") ,
     "texts"=> array(
@@ -26,8 +27,12 @@ function get_path($type, $model)
 
 function base_url($model)
 {
-    $url = array("images"=> "http://localhost:3001/api/", "videos" => "http://localhost:3001/api/",
-    "texts" => "http://localhost:3002/api/", "ai"=> "http://localhost:3001/api/");
+  $url = array(
+    "images" => "http://localhost:3001/api/v1/",
+    "videos" => "https://kiyo-image.datawow.io/",
+    "texts"  => "https://kiyo-text.datawow.io/",
+    "ai"     => "https://kiyo-image.datawow.io/"
+  );
 
     return $url[$model];
 }
