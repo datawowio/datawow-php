@@ -95,3 +95,4 @@ Every function that being used must have `$token` which is a project token and  
  - Video Documentation [link](README/video_docs.md)
  - Text Documentation [link](README/text_docs.md)
  - AI/Prediction Documentation [link](README/ai_docs.md)
+ - Document verification Documentation [link](README/docs_docs.md)
