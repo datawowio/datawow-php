@@ -19,7 +19,8 @@ ImageChoice::create($token, $params);
 ### params
 
 |Field        | Type           | Required  | Description |
-| ------------- |:-------------:| :-----:| :-----| | instruction| string|**Yes**| Tell moderator what answer you expected and what image is|
+| ------------- |:-------------:| :-----:| :-----|
+| instruction| string|**Yes**| Tell moderator what answer you expected and what image is|
 |categories | Array[string]|**Yes** | List of answers that you were expected. separate by use space |
 | data |string | **Yes** |URL of image|
 | postback_url| string|No| URL for answer callback once image has been checked|
@@ -96,3 +97,4 @@ YourClass::find_id(array('id' => 1))
 | Field        | Type           | Required  | Description |
 | ------------- |:-------------:| :----:| :-----|
 | id	     | string  |   **Yes** | Image's ID or custom ID which is you were assigned|
+
