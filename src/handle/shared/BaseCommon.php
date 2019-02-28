@@ -30,11 +30,11 @@ function get_path($type, $model)
 function base_url($model)
 {
   $url = array(
-    "images" => "http://localhost:3001/api/v1/",
-    "videos" => "http://localhost:3001/api/v1/",
-    "texts"  => "http://localhost:3002/api/v1/",
-    "ai"     => "http://localhost:3001/api/v1/",
-    "docs"   => "http://localhost:3001/api/v1/"
+    "images" => "https://kiyo-image.datawow.io/",
+    "videos" => "https://kiyo-image.datawow.io/",
+    "texts"  => "https://kiyo-text.datawow.io/",
+    "ai"     => "https://kiyo-image.datawow.io/",
+    "docs"   => "https://kiyo-image.datawow.io/"
   );
 
     return $url[$model];
