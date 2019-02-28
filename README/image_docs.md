@@ -19,8 +19,7 @@ ImageChoice::create($token, $params);
 ### params
 
 |Field        | Type           | Required  | Description |
-| ------------- |:-------------:| :-----:| :-----|
-| instruction| string|**Yes**| Tell moderator what answer you expected and what image is|
+| ------------- |:-------------:| :-----:| :-----| | instruction| string|**Yes**| Tell moderator what answer you expected and what image is|
 |categories | Array[string]|**Yes** | List of answers that you were expected. separate by use space |
 | data |string | **Yes** |URL of image|
 | postback_url| string|No| URL for answer callback once image has been checked|
@@ -91,7 +90,7 @@ Once, you want to controller number of result and implement pagination on you sy
 ## Find data with ID by `find_id()`
 
 ```php
-YourClass::gets(array('id' => 1))
+YourClass::find_id(array('id' => 1))
 ```
 #### params
 | Field        | Type           | Required  | Description |
