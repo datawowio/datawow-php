@@ -8,7 +8,8 @@ function get_path($type, $model)
       "messages"         => "images/messages",
       "choices"          => "images/choices",
       "photo_tag"        => "images/photo_tags",
-      "find"             => "projects/images/"),
+      "find"             => "projects/images/",
+      "consensus"        => "jobs/ai/consensuses/"),
     "videos" => array(
       "closed_questions" => "videos/closed_questions") ,
     "texts"=> array(
@@ -20,7 +21,7 @@ function get_path($type, $model)
         "find"       => "projects/images/"
       ),
     "docs" => array(
-      "verification" => "images/document_verifications/"
+        "verification" => "images/document_verifications/"
       )
     );
 

@@ -6,6 +6,7 @@ We're going to explant about parameter for creation and example of use
 - [Closed Question class](#closed-question-class)
 - [Image message class](#image-messages-class)
 - [Photo tags class](#photo-tags-class)
+- [AI Consensus class](#ai-consensus-class)
 
 
 ## Image Choice class
@@ -71,6 +72,19 @@ ImagePhotoTag::create($token, $params);
 |postback_method|string | No |Configuration HTTP method GET POST PUT PATCH|
 |custom_id|string|No|Custom ID that used for search|
 
+## AI Consensus class
+
+```php 
+AIConsensus::create($token, $params);
+```
+
+#### params
+| Field | Type| Required | Description |
+| ------------- |:-------------:| :-----:| :-----|
+|data|string| **Yes** |URL of image|
+|postback_url|string| No |URL for answer callback once image has been checked|
+|postback_method|string | No |Configuration HTTP method GET POST PUT PATCH|
+|custom_id|string|No|Custom ID that used for search|
 
 ## Query list of data by `gets()`
 For `$params` We're going to explant parameter that `gets()`  has been defined
@@ -97,4 +111,3 @@ YourClass::find_id(array('id' => 1))
 | Field        | Type           | Required  | Description |
 | ------------- |:-------------:| :----:| :-----|
 | id	     | string  |   **Yes** | Image's ID or custom ID which is you were assigned|
-
